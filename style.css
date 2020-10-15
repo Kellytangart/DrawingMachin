@@ -13,6 +13,7 @@ canvas {
   display: block;
   width: 800px;
 }
+
 div {
   text-align: center;
   color: white;
@@ -26,9 +27,10 @@ body {
   webkit-background-clip: text;
   background-clip: text;
 }
-.boarder{
+
+.boarder {
   border: 5px dotted white;
   padding: 10px;
 }
 
-  padding: 70px;
+padding: 70px;
