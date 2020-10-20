@@ -22,6 +22,14 @@ function draw() {
 
   }
 
+if (keyIsPressed === true) {    //eraser tool - hold any key and drag mouse around to use eraser
+        noStroke();
+        fill('black');
+        ellipse(mouseX,mouseY,30,30);
+        x=mouseY;
+        y=mouseX;
+      }
+
 function keyTyped() {
   if (key === 's') {
     saveCanvas('fileName', 'png');
