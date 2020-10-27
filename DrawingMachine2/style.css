@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 100px;
+}
+
+canvas {
+  display: block;
+  border: 5px solid white;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+div {
+  text-align: center;
+  color: magenta;
+  margin: 20px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+body {
+  background-image: url(redtoy.png), url(grid.png), url(girls.png), url(scribble.png),-webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  color: transparent;
+  webkit-background-clip: text;
+  background-clip: text;
+ background-repeat: no-repeat, repeat-x, no-repeat, repeat;
+ background-size: 850px 900px, 250px 250px, 400px 300px, 300px 300px,  auto;
+ background-position: 50% 81%, top, right bottom, center;
+
+}
+.boarder {
+  border: 5px dotted white;
+  padding: 10px;
+}
