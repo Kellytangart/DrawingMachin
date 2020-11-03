@@ -32,13 +32,13 @@ div {
 }
 
 body {
-  background-image: url(Glitter.png),url(bubble.png), url(Glitter1.png),url(lisafrank.png), url(frame.png), url(grid.png), url(girls.png), url(scribble.png), -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  background-image: url(Glitter.png), url(bubble.png), url(Glitter1.png), url(lisafrank.png), url(Frame.png), url(grid.png), url(girls.png), url(scribble.png), -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
   background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
   color: transparent;
   webkit-background-clip: text;
   background-clip: text;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, no-repeat, repeat;
-  background-size: auto, 455px 140px,auto,275px 275px,1048px 815px, 250px 250px, 400px 300px, 300px 300px, auto;
+  background-size: auto, 455px 140px, auto, 275px 275px, 1048px 815px, 250px 250px, 400px 300px, 300px 300px, auto;
   background-position: top left, 1% 16.5%, top right, left bottom, 41.5% 75%, top, right bottom, center;
 }
 
